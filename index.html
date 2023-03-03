@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    
+    <title>Spotify</title>
+    
+</head>
+<body>
+    <navbar id="navbar">
+        <div class="navbar-container">
+            <img src="img/spotify.svg" alt="" class="spotify">
+            <ul class="navbar-items">
+                <li class="navbar-item">Premium</li>
+                <li class="navbar-item">Ajuda</li>
+                <li class="navbar-item">Baixar</li>
+                <li class="navbar-item">Ajudar</li>
+            </ul>
+        </div>
+    </navbar>
+    
+    <div id="showcase">
+        <div class="showcase-container">
+            <h2>Música para todos</h2>
+            <div><button class="btn-primary">APROVEITE O SPOTIFY FREE</button></div>
+            <div><button class="btn-premium">OBTER O SPOTIFY PREMIUM</button></div>
+        </div>
+        
+        <div class="color-overlay"></div>      
+    </div>
+
+    <div id="container">
+        <div class="container-galeria">
+            <button onclick="carConteudo1()" style="width: 200px;">
+                <div class="item-galeria"><img src="img/img1.jpg" alt="" class="img-galeria1"></div>
+                <span style= background-size: 200px 200px;"></span>
+            </button>
+
+            <button onclick="carConteudo2()" style="width: 200px;">
+                <div class="item-galeria"><img src="img/img2.jpg" alt="" class="img-galeria2"></div>
+                <span style= background-size: 200px 200px;"></span>
+            </button>
+
+            <button onclick="carConteudo3()" style="width: 200px;">
+                <div class="item-galeria"><img src="img/img3.jpg" alt="" class="img-galeria3"></div>
+                <span style= background-size: 200px 200px;"></span>
+            </button>
+
+            <button onclick="carConteudo4()" style="width: 200px;">
+                <div class="item-galeria"><img src="img/img4.jpg" alt="" class="img-galeria4"></div>
+                <span style= background-size: 200px 200px;"></span>
+            </button>
+            <p id="conteudo1"></p>
+            <p id="conteudo2"></p>
+            <p id="conteudo3"></p>
+            <p id="conteudo4"></p>
+        </div>
+        
+        
+        <!--<div class="container-text">
+            <h1>O que o Spotify tem?</h1>
+            <h2>Músicas</h2>
+            <p>O Spotify tem milhões de músicas. Escute seus sons favoritos, 
+                descubra novas músicas e reúna seus favoritos em um só lugar.</p>
+            <h2>Playlists</h2>
+            <p>No Spotify você encontra uma playlist para cada momento. 
+                Todas feitas por fanáticos e especialistas da música.</p>
+            <h2>Novos lançamentos</h2>
+            <p>Escute os novos lançamentos de singles e álbuns da semana e 
+                veja o que está bombando no Top 50.</p> -->
+        </div>
+    </div>
+
+    <div id="container-info">
+        <div class="container-txt">
+            <h1>Fácil</h1>
+            <h2>Buscar</h2>
+            <p>Já sabe o que quer escutar? 
+               É só procurar e apertar o play.</p>
+            <h2>Navegar</h2>
+            <p>Veja os novos lançamentos, o que está 
+                bombando nas paradas e as melhores 
+                playlists para o seu momento.</p>
+            <h2>Descobrir</h2>
+            <p>Curta músicas novas toda segunda-feira 
+                com uma playlist personalizada pra 
+                você. Ou relaxe e curta uma das rádios.</p>
+        </div>
+        
+        <div class="container-img_info">
+            <div class="item-galeria1"><img src="img/iphone1.png" alt="" class="img-a"></div>
+            <div class="item-galeria"><img src="img/iphone2.png" alt="" class="img-a"></div>
+           
+        </div>
+        
+    </div>
+
+    <footer id="footer">
+        <div class="footer_conteudo">
+            <img src="img/spotify.svg" alt="" class="spotify">
+            
+            <ul class="footer_menu">
+                <p>COMPANY</p>
+                <li class="footer_menu_item">
+                    Sobre
+                </li>
+                <li class="footer_menu_item">
+                    Empregos
+                </li>
+                <li class="footer_menu_item">
+                    imprensa
+                </li>
+                <li class="footer_menu_item">
+                    Novidades
+                </li>
+            </ul>
+            
+            <ul class="footer_menu">
+                <p>COMUNIDADES</p>
+                <li class="footer_menu_item">
+                    Artistas
+                </li>
+                <li class="footer_menu_item">
+                    Desenvolvedores
+                </li>
+                <li class="footer_menu_item">
+                    Marcas
+                </li>
+            </ul>
+
+            <ul class="footer_menu">
+                <p>LINKS ÚTEIS</p>
+                <li class="footer_menu_item">
+                    Ajuda
+                </li>
+                <li class="footer_menu_item">
+                    Presentes
+                </li>
+                <li class="footer_menu_item">
+                    Player na web
+                </li>
+            </ul>
+
+            <div class="redes_sociais">
+                <img src="img/facebook.png" alt="">
+                <img src="img/instagram.png" alt="">
+                <img src="img/twitter.png" alt="">
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="interacao.js"></script>
+
+    </body>
+</html>
